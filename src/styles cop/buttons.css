@@ -1,0 +1,58 @@
+.bigger-secondary-btn, .bigger-primary-btn, .primary-btn, .secondary-btn, button {
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  transition: all 0.3s ease;
+}
+
+.secondary-btn {
+  border: 2px solid #012a41;
+  padding: 14px 24px;
+  background-color: #fff;
+  color: #012a41;
+}
+.secondary-btn:hover {
+  background-color: #012a41;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+.primary-btn {
+  padding: 16px 28px;
+  background: #012a41;
+  color: #fff;
+  border: 0;
+}
+.primary-btn:hover {
+  background: #000a0f;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #06061c;
+}
+
+.bigger-primary-btn {
+  padding: 24px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  margin-top: 8px;
+  background: #012a41;
+  color: #fff;
+}
+
+.bigger-secondary-btn {
+  padding: 24px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+  border: 2px solid #012a41;
+  background-color: #fff;
+  color: #012a41;
+}/*# sourceMappingURL=buttons.css.map */
